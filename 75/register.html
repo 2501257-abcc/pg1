@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+        <link rel="stylesheet" href="css/style.css"/>
+        <script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+		<title>旅行日記</title>
+	</head>
+	<body>
+        <div>
+            <!-- ナビゲーションメニュー -->
+            <ul class="nav-list">
+                <li><a href="index.html">home</a></li>
+                <li><a href="list.html">list</a></li>
+                <li><a href="register.html">registration</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div class="registration">
+                <p id="title">⭐ 記録したい日記 ⭐</p>
+                <p class="item">タイトル：
+                <span>(必須)</span><br>
+                <input id="contentTitle" class="input" type="text" maxlength="20"></input>
+                </p>
+                <p class="item">サブタイトル：<br>
+                <input id="contentSubTitle" class="input" type="text" maxlength="30"></input>
+                </p>
+                <p class="item">場所：
+                <span>(必須)</span><br>
+                <input id="contentPlace" class="input" type="text" maxlength="30"></input>
+                </p>
+                <p class="item">日付：
+                <span>(必須)</span><br>
+                <input id="contentDate" class="input" type="date"></input>
+                </p>
+                <p class="item">コメント：<br>
+                <textarea id="contentComment" class="input" type="textarea" cols="20" rows="5"></textarea>
+                </p>
+                <button onclick="register()" id="button">登録</button>
+            </div>
+        </div>
+		<footer><small>2501257 副島 明日香</small></footer>
+	</body>
+</html>

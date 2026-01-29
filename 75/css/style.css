@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #cceaff;
+    font-family: "BIZ UDPGothic", "BIZ UDゴシック", sans-serif;
+}
+
+.nav-list{
+    position: fixed;
+    top: 0;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    background-color: #ffffff;
+    display: flex;
+    list-style: none;
+    box-shadow: 0 0 3px #cccccc;
+}
+
+#content2{
+    margin-top: 15%;
+}
+
+.nav-list li{
+    margin-right: 20px;
+}
+
+.nav-list a{
+    color: #9999b6;
+    text-decoration: none;
+}
+
+#diaryListArea {
+    width: 80%;
+    margin-top: 15%;
+}
+
+
+.registration{
+    background-color: #ffffff;
+    margin: 15% 5% 0% 5%;
+    border-radius: 5px;
+    box-shadow: 0 0 4px #ffffff;
+    padding: 5px;
+}
+
+.registration a{
+    color: #00318b;
+    text-decoration: none;
+}
+
+#add{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 3%;
+    width: 80%;
+    position: fixed;
+    bottom: 3%;
+    background-color: #689bb9;
+    color: #ffffff;
+    border-color: #1e72a3;
+}
+
+#button{
+    background-color: #cceaff;
+    color: #1e72a3;
+    border-color: #cceaff;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #cccccc;
+    padding: 7px 14px 7px 14px;
+    margin-left: 80%;
+    
+}
+
+#title{
+    margin-left: 10px;
+}
+
+.item{
+    margin: 9%;
+}
+
+span{
+    color: #e41515;
+}
+
+.input{
+    margin-top: 5px;
+    margin-bottom: 3px;
+    width: 90%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.diary-item {
+    border: 1px solid #aaa;
+    padding: 12px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+}
+
+.diary-item button {
+    background-color: #e41515;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.diary-item button:hover {
+    background-color: #b81212;   /* 少し濃い赤 */
+}
